@@ -83,7 +83,7 @@ function buttonAnimation(currentKey){
 
 
 
-}
+};
 
 //document.querySelector("button").addEventListener("click",handleClick);
 
