@@ -72,6 +72,16 @@ function makeSound(key){
 
 function buttonAnimation(currentKey){
     var activeButon = document.querySelector("."+ currentKey);
+    activeButon.classList.add("pressed");
+    //we want the highlight to be removed after we clicked in some seconds so we know we have tapped it
+    //we need a timeout function
+    setTimeout(function(){
+        activeButon.classList.remove("presed");
+
+    },100
+);
+
+
 
 }
 
